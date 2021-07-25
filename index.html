@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Gmail Clone</title>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet" />
+    <link rel="stylesheet" href="index.css" />
+</head>
+
+<body>
+    <!-- topbar starts here -->
+
+    <div class="header">
+        <div class="header-left">
+            <span class="material-icons"> menu </span>
+            <img src="https://logodownload.org/wp-content/uploads/2018/03/gmail-logo-0.png" alt="" />
+        </div>
+        <div class="header-middle">
+            <span class="material-icons"> search </span>
+            <input type="text" placeholder="Search Mail" id="" />
+            <span class="material-icons"> tune </span>
+        </div>
+        <div class="header-right">
+            <span class="material-icons"> help_outline </span>
+            <span class="material-icons"> settings </span>
+            <span class="material-icons"> apps </span>
+            <span class="material-icons"> account_circle </span>
+        </div>
+    </div>
+    <!-- topbar ends here -->
+
+    <!-- sidebar starts here -->
+    <div class="main-body">
+        <div class="sidebar">
+            <button class="sidebar-compose">
+                <span class="material-icons"> add </span>
+                Compose
+            </button>
+            <div>
+                <div class="side-option sideoption-active">
+                    <span class="material-icons">
+                        inbox
+                    </span>
+                    <h4> Inbox</h4>
+                </div>
+                <div class="side-option">
+                    <span class="material-icons">
+                        star
+                    </span>
+                    <h4>Starred</h4>
+                </div>
+                <div class="side-option">
+                    <span class="material-icons">
+                        watch_later
+                    </span>
+                    <h4> Snoozed</h4>
+                </div>
+                <div class="side-option">
+                    <span class="material-icons">
+                        label_important
+                    </span>
+                    <h4> Important</h4>
+                </div>
+                <div class="side-option">
+                    <span class="material-icons">
+                        send
+                    </span>
+                    <h4> Sent</h4>
+                </div>
+                <div class="side-option">
+                    <span class="material-icons">
+                        insert_drive_file
+                    </span>
+                    <h4> Draft</h4>
+                </div>
+                <div class="side-option">
+                    <span class="material-icons">
+                        label
+                    </span>
+                    <h4> Categories</h4>
+                </div>
+            </div>
+        </div>
+
+        <!-- sidebar ends here -->
+
+
+        <!-- email list starts here -->
+        <div class="emaillist">
+            <!-- setting starts here -->
+            <div class="emaillist-setting">
+                <div class="emaillist-setting-left">
+                    <input type="checkbox">
+                    <span class="material-icons">
+                        arrow_drop_down
+                    </span>
+                    <span class="material-icons">
+                        refresh
+                    </span>
+                    <span class="material-icons">
+                        more_vert
+                    </span>
+                </div>
+                <div class="emaillist-setting-right">
+                    <span class="material-icons">
+                        chevron_left
+                    </span>
+                    <span class="material-icons">
+                        navigate_next
+                    </span>
+                </div>
+            </div>
+
+            <!-- setting ends here -->
+
+            <!-- section starts here -->
+
+            <div class="emaillist-section">
+                <div class="section section-selected">
+                    <span class="material-icons">
+                        inbox
+                    </span>
+                    <h4>Primary</h4>
+                </div>
+                <div class="section">
+                    <span class="material-icons">
+                        people
+                    </span>
+                    <h4>Secondary</h4>
+                </div>
+                <div class="section">
+                    <span class="material-icons">
+                        local_offer
+                    </span>
+                    <h4>Promotions</h4>
+                </div>
+
+            </div>
+
+            <!-- section ends here -->
+            <!-- email list row starts here -->
+            <div class="emailRow">
+                <div class="emailRow-options">
+                    <input type="checkbox" name="" id="">
+                    <span class="material-icons">
+                        star_border
+                    </span>
+                    <span class="material-icons">
+                        label_important
+                    </span>
+                </div>
+                <h3 class="emailRow-title">Senthil</h3>
+                <div class="emailRow-message">
+                    <h4>Subject <span class="emailRow-message-description"> - Your complete email first line</span></h4>
+                </div>
+                <p class="emailRow-time">time</p>
+            </div>
+
+            <!-- email list row ends here -->
+        </div>
+        <!-- email list ends here -->
+    </div>
+</body>
+
+</html>
